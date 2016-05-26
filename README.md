@@ -8,6 +8,8 @@ copyt files "cdnmf_fast.pyd" and "nmf.py" and overide the "original" in the same
 
 for linux, those files are "FISTA_fast.so" and "cdnmf_fast.so"
 
+soure codes: FISTA_fast.pyx, cdnmf_fast.pyx and nmf.py
+
 method: 
 nmf = NMF(n_components=100, solver='cd',verbose=1,tol=.001,alpha=.1,l1_ratio=.2)
 solver = 'cd': is the coordinate descent that I have modified
